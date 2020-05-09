@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+/*To print a triangular pattern*/
+int i,j;
+clrscr();
+printf("The pattern of the triangle\n");
+for(i=1;i<=6;i++)                         /*body of the triangle*/
+{
+ for(j=1;j<=i;j++)
+ printf("01");
+ printf("\n");
+}
+getch();
+}
